@@ -6,8 +6,6 @@ import com.example.techloom.entity.Product;
 import com.example.techloom.enums.CartStatus;
 import com.example.techloom.exception.ResourceNotFoundException;
 import com.example.techloom.repository.CartItemRepository;
-import com.example.techloom.repository.CartRepository;
-import com.example.techloom.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
